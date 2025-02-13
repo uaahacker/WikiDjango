@@ -11,7 +11,7 @@
 
 ## Getting Started
 
-1. **Clone the repository:** `git clone https://github.com/YOUR_USERNAME/WikiDjango.git`
+1. **Clone the repository:** `git clone https://github.com/uaaahcker/WikiDjango.git`
 2. **Install dependencies:** `pip3 install -r requirements.txt`
 3. **Run the development server:** `python manage.py runserver`
 4. **Access the encyclopedia:** Open your web browser and go to `http://127.0.0.1:8000/`
@@ -42,4 +42,4 @@ Contributions are welcome! Please open an issue or submit a pull request.
 
 ## License
 
-[Choose a license - MIT License is a common choice]
+ - MIT License 
