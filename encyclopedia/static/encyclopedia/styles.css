@@ -1,0 +1,303 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    background-color: #f0f0f0;
+    color: white;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.sidebar form {
+    margin-bottom: 20px;
+}
+
+.sidebar input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+.sidebar button {
+    width: 100%;
+    padding: 8px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 8px;
+    transition: background-color 0.3s;
+}
+
+.sidebar button:hover {
+    background-color: #0056b3;
+}
+
+.sidebar div {
+    margin-top: 10px;
+}
+
+.sidebar a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #495057;
+    color: white;
+}
+
+/* Main Content Area */
+.main {
+    padding: 20px;
+    background-color: white;
+    min-height: 100vh;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .sidebar {
+        min-height: auto;
+        padding: 10px;
+    }
+
+    .main {
+        padding: 10px;
+    }
+}
+/* Home page Body */
+/* Header Styling */
+.page-title {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Container styling */
+.entry-list {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Remove default list styling */
+.entry-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* List item styling */
+.entry-list li {
+    margin: 10px 0;
+}
+
+/* Link styling */
+.entry-list a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #001c9b;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+/* Link hover effect */
+.entry-list a:hover {
+    background-color: #f0f0f0;
+    border-color: #ccc;
+}
+
+
+/* Entry page */
+/* Center the page title and give it a modern look */
+.page-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Style for Edit button */
+.edit-btn {
+    display: block;
+    width: 100px;
+    text-align: center;
+    margin: 10px auto; /* Centers the button */
+}
+
+/* Style for the content box */
+.content-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+/* Edit page  */
+/* Center and style the edit title */
+.edit-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+.edit-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for textarea */
+.edit-form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+/* Button group styling */
+.button-group {
+    display: flex;
+    gap: 10px; /* Adds spacing between buttons */
+}
+
+/* Save button styling */
+.save-btn {
+    flex-grow: 1; /* Makes the button adjust based on space */
+}
+
+/* Cancel button styling */
+.cancel-btn {
+    flex-grow: 1;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.1rem;
+    background-color: #6c757d;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+/* Cancel button hover effect */
+.cancel-btn:hover {
+    background-color: #5a6268;
+}
+
+
+
+/* Create new page */
+/* Style for the page title */
+.new-page-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Styling for the form container */
+.new-page-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for form labels */
+.new-page-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Style for input fields */
+.new-page-form .form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+/* Style for the submit button */
+.new-page-form button {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect for the button */
+.new-page-form button:hover {
+    background-color: #0056b3;
+}
