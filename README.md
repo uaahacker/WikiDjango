@@ -6,7 +6,7 @@
 * **Create, edit, and view encyclopedia entries:** Entries are written in Markdown and rendered as HTML.
 * **Search:** Search for entries by title or content.
 * **Random Page:** Explore the encyclopedia by jumping to a random entry.
-* **Clean and user-friendly interface:**  [Mention any specific design improvements, e.g.,  "Featuring a responsive design and custom styling for an enhanced user experience."]
+* **Clean and user-friendly interface:**  
 
 
 ## Getting Started
@@ -30,9 +30,9 @@
 
 * Python
 * Django
-* Markdown2 (or "Custom Markdown to HTML conversion")
+* Markdown2 
 * HTML/CSS
-* [Mention any other libraries or technologies if used]
+
 
 
 ## Contributing
